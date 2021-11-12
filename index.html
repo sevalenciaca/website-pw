@@ -13,12 +13,18 @@
         <div class="banner"></div>
         <nav class="barra-navegacion">
             <ul>
-                <li>Home</li>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
                 <li>
                     <a href="#formulario">Formulario</a>
                 </li>
-                <li>Vista 2</li>
-                <li>Vista 3</li>
+                <li>
+                    <a href="#tabla">Tabla</a>
+                </li>
+                <li>
+                    <a href="#videos">Video</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -53,10 +59,52 @@
             <p>El evento, que ya está consolidado como un foro de referencia profesional sobre la temática en España, se encuentra incluido dentro de las acciones relevantes reflejadas dentro del Plan Nacional de Territorios Inteligentes PNCI (Acción 4: Comunicación y difusión).</p>
         </div>
     </section>
+    <section class="container tabla">
+        <table id="tabla" class="table container">
+            <thead>
+                <tr>
+                    <th>Nombre Participante</th>
+                    <th>Documento</th>
+                    <th>Nombre del proyecto</th>
+                    <th>Descripcion</th>
+                </tr>
+            </thead>
+            <tbody id="myTable">
+                <tr>
+                    <td>Santiago Valencia Saavedra</td>
+                    <td>1053857784</td>
+                    <td>Región inteligente</td>  
+            <td>Pretende volver la región centro sur de caldas en territorio inteligente</td>  
+                </tr>
+                <tr>
+                    <td>Sebastian Valencia Carvajal</td>
+                    <td>10538663344</td>
+                    <td>Movilidad inteligente</td>  
+            <td>Semaforización inteligente en Manizales</td>  
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="container audios">
+        <audio controls>
+            <source src="img/audio.mp3" type="audio/mp3">
+                Tu navegador no soporta audio HTML5.
+        </audio>
+    </section>
+    <section id="videos" class="container videos">
+        <div class="video1">
+            <h2>Video Embebido de Youtube</h2>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/we8d_meqnfQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video2">
+            <h2>Video desde archivo</h2>
+            <video width="100%" height="100%" src="img/video.mp4" controls></video>
+        </div>
+    </section>
     <footer>
         <p>© Copyright 2021 Sebastián & Santiago</p>
         <p>Todos los derechos reservados</p>
-        <p><a href="https://github.com/sevalenciaca/website-pw.git">Repositorio GitHub</a></p>
+        <p><a href="https://github.com/sevalenciaca/website-pw.git" target="_blank">Repositorio GitHub</a></p>
     </footer>
 </body>
 </html>
